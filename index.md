@@ -1,6 +1,6 @@
 # Quality Control for genomic data
 
-May 10 2021 | Ludovic Dutoit 
+May 10 2021 | [Ludovic Dutoit](https://ldutoit.github.io)
 
 ## Description
 With the age of high\-throughput sequencing, several techniques have been developed to
