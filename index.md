@@ -1,6 +1,6 @@
 # Quality Control for Genomic Data
 
-May 10 2021 | ![Ludovic Dutoit](https://ldutoit.github.io)
+May 10 2021 | [Ludovic Dutoit](https://ldutoit.github.io)
 
 ## Description
 Quality control is the first step of any genomic analysis pipleine. We'll utilise this step as a way of familiarising ourselves with genomic data structure and learning our way through the New Zealand High Performance Computing Infrastructure ([NeSI](https://www.nesi.org.nz/)).
