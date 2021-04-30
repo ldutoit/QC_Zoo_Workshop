@@ -1,3 +1,8 @@
+Today we are working with some exciting bullies daya (ask Bruce), tell them what it is (Link paper
+
+
+
+
 *in construction*
 
 QualityControlforGenomicData.md
