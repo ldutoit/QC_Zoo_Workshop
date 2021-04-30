@@ -1,2 +1,5 @@
 # Quality control workshop
-This small workshop aims at introducing student to quality contol of sequencing data
+
+Materials for an introductory workshop to Quality Control of sequencing data.
+
+It all starts at [index.md]
