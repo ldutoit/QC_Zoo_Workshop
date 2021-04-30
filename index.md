@@ -11,7 +11,7 @@ We only have a short time together, but whether you are a novice or an expert in
   
 ## Getting started
 
-We'll make use of New Zealand High Performance Computing infrastructure. If you're working or studying at the University of Otago, it is practically free and unlimited computing power. It also has the advantages of being unbreakable, potentially running your analyses when you sleep or when you use your computer for other things. Finally, it comes loaded with a multiple of bioinformatic and genomic softarwes pre-installed and a highly competent, fully dedicated support team. Finally, being comfortable with such a resource is an amazing translational skill to add to your CV
+We'll make use of New Zealand High Performance Computing infrastructure [NeSI](https://www.nesi.org.nz/). If you're working or studying at the University of Otago, it is practically free and [unlimited](https://support.nesi.org.nz/hc/en-gb/articles/360000204076-Mahuika-Slurm-Partitions) computing power. It also has the advantages of being unbreakable, potentially running your analyses when you sleep or when you use your computer for other things. It comes loaded with a multiple of bioinformatic and genomic softwares pre-installed and a highly competent, fully dedicated support team. Finally, being comfortable with such a resource is an amazing translational skill to add to your already glowing skill set!
 
 * If you have a [NeSI account](https://www.nesi.org.nz/),  use it to log into the [Jupyter hub](https://jupyter.nesi.org.nz/hub/login?next=%2Fhub%2F). If you are not sure how, you can follow detailed instructions at [jupyter_hub.md](jupyter_hub.md). 
 
