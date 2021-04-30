@@ -5,7 +5,7 @@ May 10 2021 | [Ludovic Dutoit](https://ldutoit.github.io)
 ## Description
 Quality control is the first step of any genomic analysis pipleine. We'll utilise this step as a way of familiarising ourselves with genomic data structure and learning our way through the New Zealand High Performance Computing Infrastructure ([NeSI](https://www.nesi.org.nz/)).
 
-### Objectives
+## Objectives
 
 We only have a short time together, but whether you are a novice or an expert in the world of genomic and/or computing I'd like to believe you can leave this session having learnt at least three things. They could be about genomics, High Performance Computing or teaching techniques.
   
