@@ -1,6 +1,6 @@
 # Quality Control for Genomic Data
 
 
-Materials for an introductory workshop to Quality Control of sequencing data.
+Materials for an introductory workshop on quality control.
 
 It all starts at [index.md](index.md)
