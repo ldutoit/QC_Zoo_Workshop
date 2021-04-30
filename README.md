@@ -1,4 +1,5 @@
-# Quality control workshop
+# Quality Control for Genomic Data
+
 
 Materials for an introductory workshop to Quality Control of sequencing data.
 
