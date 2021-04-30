@@ -17,7 +17,7 @@ We'll make use of New Zealand High Performance Computing infrastructure. If you'
 
 * If you don't have a [NeSI account](https://www.nesi.org.nz/), put your pink sticker on your computer and we'll simply you log you in. In a traditional workshop, we'd make sure every participant has access to the servers before starting the workshop. It is a powerful resource you can later use on your own. 
 
-Once everybody is logged in, we 'll start  the lesson together : [QualityControlforGenomicData.md](QualityControlforGenomicData.md)
+Once everybody is logged in, we'll **start the lesson together** : [QualityControlforGenomicData.md](QualityControlforGenomicData.md)
 
 
 
