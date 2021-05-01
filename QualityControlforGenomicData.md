@@ -8,7 +8,8 @@ Today we are working with some exciting real world data.
 
 [Dr Travis Ingram](https://www.otago.ac.nz/zoology/staff/ingram.html) sampled common bullies (*Gobiomorphus cotidianus*) from 5 to 90 m depth in four South Island lakes to test for morphological and ecological differences associated with depth in those fishes. After identifying some consistent body shape differences associated with depth, he wondered whether those differences reflected population structure and proceeded with genetic analyses for fishes sampled from two of those lakes (lake Wanaka and  lake Wakatipu) using a technique called [Genotyping-by-Sequencing](https://sapac.illumina.com/techniques/sequencing/dna-sequencing/targeted-resequencing/genotyping-by-sequencing.html).
 
-PICTURE OF THE FISH
+ <br><img src="img/Common_bully,_Gobiomorphus_cotidianus.png" alt="drawing" size="700"/>
+picture: Zureks
 
 While today's workshop is not going further than Quality Control of the data, You can find the published paper [here](https://cdnsciencepub.com/doi/abs/10.1139/cjfas-2020-0015). Should you be interested, [this tutorial](https://github.com/ldutoit/bully_gbs/blob/master/populationstructure_tuto/populationstructure_tuto.md) will allow you to explore population structure in those fishes using a pre-processed set of 9605 genetic variants.
 
@@ -53,28 +54,41 @@ press `q` to quit.
 
 ### Quality control of individual files using FastQC
 
-It is obviously not very practical to look at all those reads manually, but always a good idea to have a very quick look at your data.
+It is obviously not very practical to look at all those reads manually, but it is always a good idea to have a very quick look at your data.
 
-```FastQC``` is a great software to summarise the information.
+```FastQC``` is a great software to summarise `.fastq` files.
 
+NeSI comes with a whole suite of pre-installed softwares, and [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) is one of them. They are stored away in boxes called 
+*modules* that you can access whenever you need to. Let's see if we  can find FastQC as one of those pre-installed softwares.
 
-NeSI comes with a whole suite of pre-installed softwares. They are stored away in boxes called 
-*modules* that you can access whenever you need to. Let's see if we can can find FastQC as one of those pre-installed softwares.
+Those commands are case-sensitive, therefore we need to find the exact name under which the module is stored inside the system.
 
-To find a module
-
-To load a module
+To find a module including the word fastqc:
 
 ```bash
-module spider FastQC
+module spider fastqc
+```
+
+Now that we found it, we can load it
+
+```bash
 module load FastQC
+```
+Before running the software we''ll create 
+
+you now hot wo go back up one folder!
+
+mkdir fastqc
+
+let's run fastqc on all our files.
+
+```bash
 fastqc *
 ```
-let's look at one of those files.
 
-....Navigate to FastQC file
+the star is a little *wild card* that means every file. So in our case we run fastqc on all the files that start with anything but ends with `.fq.gz`
 
-....
+Navigate 
 
 ### MultiQC...
 
@@ -98,8 +112,6 @@ Visualise (make sure one of the sample ) ... Put the example
 
 [Back to the homepage](index.md)
 
-
-Resources (maybe in the index.md) file :
 
 some more examples of my teaching....
 
