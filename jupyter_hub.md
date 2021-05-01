@@ -10,6 +10,6 @@
 4. Jupyter Launcher screen
  <br><img src="img/ga-vl01jupyterhunNeSI.png" alt="drawing" size="700"/>
 
-5. Click on Terminal on the bottom of the launcher. You are now ready to enter commands! Put a green sticker on your computer and get back to the home-page.
+5. Click on Terminal on the bottom of the launcher. You are now ready to enter commands! Put a green sticker on your computer and get back to the homepage.
 
 [Back to homepage](index.md)
