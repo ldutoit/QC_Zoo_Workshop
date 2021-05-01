@@ -1,5 +1,6 @@
 ## Quality Control for Genomic Data
 
+Ludovic Dutoit | May 2021
 
 ## Dataset
 
