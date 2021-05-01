@@ -78,7 +78,7 @@ let's look at one of those files.
 
 ### MultiQC...
 
-[MultiQC](https://multiqc.info/) aggregates results from bioinformatics analyses across many samples into a single report. We'll just aggregate our results from the fastqc analysis, but MultiQC recognises log files of many different softwares and is an excellent of keeping track of your samples along an analysis pipeline.
+[MultiQC](https://multiqc.info/) aggregates results from bioinformatics analyses across many samples into a single report. We'll just aggregate our results from the fastqc analysis, but MultiQC recognises log files of many different softwares and is an excellent way of keeping track of your samples along an analysis pipeline.
 
 Find and load MultiQC
 
@@ -93,6 +93,10 @@ multiqc .
 ```
 
 Visualise (make sure one of the sample ) ... Put the example
+
+[Let's learn how to remove those adapters](remove_adapters.md)
+[Back to the homepage](index.md)
+
 
 Resources (maybe in the index.md) file :
 
