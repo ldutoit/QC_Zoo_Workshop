@@ -95,6 +95,7 @@ multiqc .
 Visualise (make sure one of the sample ) ... Put the example
 
 [Let's learn how to remove those adapters](remove_adapters.md)
+
 [Back to the homepage](index.md)
 
 
