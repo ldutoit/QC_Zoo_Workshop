@@ -9,7 +9,7 @@ Today we are working with some exciting real world data.
 [Dr Travis Ingram](https://www.otago.ac.nz/zoology/staff/ingram.html) sampled common bullies (*Gobiomorphus cotidianus*) from 5 to 90 m depth in four South Island lakes to test for morphological and ecological differences associated with depth in those fishes. After identifying some consistent body shape differences associated with depth, he wondered whether those differences reflected population structure and proceeded with genetic analyses for fishes sampled from two of those lakes (lake Wanaka and  lake Wakatipu) using a technique called [Genotyping-by-Sequencing](https://sapac.illumina.com/techniques/sequencing/dna-sequencing/targeted-resequencing/genotyping-by-sequencing.html).
 
  <br><img src="img/Common_bully,_Gobiomorphus_cotidianus.png" alt="drawing" size="200"/>
-picture: Zureks
+Picture: [Zureks](https://en.wikipedia.org/wiki/Common_bully#/media/File:Common_bully,_Gobiomorphus_cotidianus.jpg)
 
 While today's workshop is not going further than Quality Control of the data, You can find the published paper [here](https://cdnsciencepub.com/doi/abs/10.1139/cjfas-2020-0015). Should you be interested, [this tutorial](https://github.com/ldutoit/bully_gbs/blob/master/populationstructure_tuto/populationstructure_tuto.md) will allow you to explore population structure in those fishes using a pre-processed set of 9605 genetic variants.
 
