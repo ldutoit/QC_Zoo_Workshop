@@ -36,13 +36,13 @@ mkdir tuto_Jo
 cd tuto_Jo
 ```
 
-We'll then download our dataset for today and unzip it. There are other ways to get your data onto NeSI from your own computer, but a quick download will be the most efficient for us today.
+We'll then download our dataset for today and unzip it. There are other ways to get your data onto NeSI from your own computer, but a quick download will be the most efficient for us today. We'll use the wget command to download a file and name that downloaded file `raw_data.tar` using the `-O` parameter
 
 ```bash
 wget --no-check-certificate 'https://tinyurl.com/rawingram' -O raw_data.tar
 ```
 
-you can use `ls` that stands for *list* to see what is around and then decompress this `tar` archive folder. 
+you can use `ls` that stands for *list* to see the content of directories. We will then decompress this newly downloaded `tar` archive folder. 
 
 ```bash
 ls
