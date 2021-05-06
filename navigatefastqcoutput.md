@@ -1,12 +1,12 @@
 # find your FastQC file
 
-1. Select the explorer in the blue screen below. You should see a list of directories. Go into `home`. 
+1. Select the explorer in the blue screen below. You should see a list of directories. 
 
 2. Select the directory named `home`
 
 ![](img/navigate_tofasqc_output_step1.png)
 
-3. Select your tutorial folder, in my case  "tuto_Ludo"
+3. Select your tutorial folder, in my case it is named `tuto_Ludo`
 
 ![](img/navigate_tofasqc_output_step2.png)
 
