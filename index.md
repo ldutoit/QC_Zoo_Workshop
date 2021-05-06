@@ -15,7 +15,7 @@ The teaching style of this workshop is inspired by the carpentries mode. Here ar
 
 * I believe live coding is the best way to learn bioinformatics skills. You get to hear it, see it and do it. Importantly, you leave with a computer tha is able to do exactly what we have done together and not a "If I had this installed and access to that data, I could perhaps go through my notes". 
 
-* We'll use *pink* and *green* stickers. That way you can signal you need help by putting the pink sticker on your computer or that everything is alright by putting the green sticker up. That is great because you can ask for help even if you're not comfortable interrupting the class.
+* You can signal you need help by putting the *pink* sticker on your computer or that everything is alright by putting the green sticker up. That is great because you can ask for help even if you're not comfortable interrupting the class. I usually work with helpers, great way for an advanced user like some people in this room to reinforce your skills!)
   
 ## Getting started
 
