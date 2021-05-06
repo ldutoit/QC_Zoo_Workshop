@@ -115,6 +115,8 @@ We'll be navigating through the file explorer on the left of your screen to find
 
 If you cannot find your file, you can follow the path through [here](navigatefastqcoutput.md).
 
+Now that you had a good look at one or two file, you can see that FastQC is a fast and efficient way to look at your samples, summarising information on thousands of reads efficiently. But what if you have a lot of samples, are you going to have to look through each FastQC output to file to find the potential *bad apple*?
+
 ### MultiQC
 
 [MultiQC](https://multiqc.info/) aggregates results from bioinformatics analyses across many samples into a single report. Today, we'll just aggregate our results from the fastqc analysis, but MultiQC recognises log files of many different softwares and is an excellent way of keeping track of your samples along an analysis pipeline whether.
@@ -133,10 +135,13 @@ cd qc
 multiqc .
 ```
 
-Visualise the multiqc_report.html file just produced. 
+Visualise the multiqc_report.html file just produced besudes your `fastqc file`.
 
 [Let's learn how to remove those adapters](remove_adapters.md)
 
+[Summary of what we learnt](lesson_summary.md)
+
 [Back to the homepage](index.md)
+
 
 
