@@ -13,7 +13,9 @@ We only have a short amount of time together, but whether you are a novice or an
 
 The teaching style of this workshop is inspired by the carpentries mode. Here are a few important points to me:
 
-* I believe **live coding** is a great way to learn bioinformatics skills. You get to hear it, see it and do it. It also encourages a teaching speed that everyone can follow. Importantly, you leave with a computer that is set up to do all the things that we have done together.
+* I believe **live coding** is a great way to learn bioinformatics skills. You get to hear it, see it and do it. It also encourages a teaching speed that everyone can follow. 
+*
+* *Share and thrive*. You'll leave today with a computer that is set up to do all the things that we have done together. All the material is accessible on this website. You can modify it, [suggest modifications](https://github.com/ldutoit/QC_Zoo_Workshop/issues) or share it.
 
 * You can signal you need help by putting the *pink* sticker on your computer or that everything is alright by putting the green sticker up. That is great because you can ask for help even if you're not comfortable interrupting the class. I usually work with helpers, great way for an advanced user like some people in this room to reinforce your skills!)
 
@@ -28,9 +30,3 @@ The teaching style of this workshop is inspired by the carpentries mode. Here ar
 * If you don't have a [NeSI account](https://www.nesi.org.nz/), put the pink sticker on your computer and we'll simply log you in. In a normal workshop, we would make sure every participant has access to the servers before starting the workshop but it is not possible today. Those servers are a powerful resource you can later use on your own. You are free to apply for an account after this workshop if it feels like NeSI is a resource you might want to use further.
 
 Once everybody is logged in, we'll **start the lesson together** : [Quality Control for Genomic Data](QualityControlforGenomicData.md)
-
-
-
-
-
-
