@@ -8,10 +8,18 @@ Quality control is the first step of any genomic analysis pipleine. We will util
 ## Objectives
 
 We only have a short amount of time together, but whether you are a novice or an expert in the world of genomic and/or computing I'd like to believe you can leave this session having learnt at least three new things. They could be about genomics, High Performance Computing or teaching techniques.
+
+## Teaching style
+
+The teaching style of this workshop is inspired by the carpentries mode. Here are a few important points to me:
+
+* I believe live coding is the best way to learn bioinformatics skills. You get to hear it, see it and do it. Importantly, you leave with a computer tha is able to do exactly what we have done together and not a "If I had this installed and access to that data, I could perhaps go through my notes". 
+
+* We'll use *pink* and *green* stickers. That way you can signal you need help by putting the pink sticker on your computer or that everything is alright by putting the green sticker up. That is great because you can ask for help even if you're not comfortable interrupting the class.
   
 ## Getting started
 
-We'll make use of New Zealand High Performance Computing infrastructure [NeSI](https://www.nesi.org.nz/). If you're working or studying at the University of Otago, it is free and [practically unlimited](https://support.nesi.org.nz/hc/en-gb/articles/360000204076-Mahuika-Slurm-Partitions) computing power. It is also unbreakable and can potentially run your analyses when you sleep. It comes loaded with a multiple of bioinformatic and genomic softwares pre-installed and a highly competent, fully dedicated support team. Finally, being comfortable with such a resource is an amazing translational skill to add to your already glowing skill set!
+30-40 minutes is a very short amount of time to have everyone set up and going, so bear with me! We'll make use of New Zealand High Performance Computing infrastructure [NeSI](https://www.nesi.org.nz/). If you're working or studying at the University of Otago, it is free and [practically unlimited](https://support.nesi.org.nz/hc/en-gb/articles/360000204076-Mahuika-Slurm-Partitions) computing power. It is also unbreakable and can potentially run your analyses when you sleep. It comes loaded with a multiple of bioinformatic and genomic softwares pre-installed and a highly competent, fully dedicated support team. Finally, being comfortable with such a resource is an amazing translational skill to add to your already glowing skill set!
 
 * If you have a [NeSI account](https://www.nesi.org.nz/), use it to login at [https://jupyter.nesi.org.nz/](https://jupyter.nesi.org.nz/). If you are not sure how, you can follow detailed instructions at [jupyter_hub.md](jupyter_hub.md). Once you are all logged in, put the green sticker up on your computer so that I know that you are ready to go!
 
