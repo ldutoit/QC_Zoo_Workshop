@@ -13,9 +13,11 @@ We only have a short amount of time together, but whether you are a novice or an
 
 The teaching style of this workshop is inspired by the carpentries mode. Here are a few important points to me:
 
-* I believe live coding is the best way to learn bioinformatics skills. You get to hear it, see it and do it. Importantly, you leave with a computer tha is able to do exactly what we have done together and not a "If I had this installed and access to that data, I could perhaps go through my notes". 
+* I believe **live coding** is a great way to learn bioinformatics skills. You get to hear it, see it and do it. It also encourages a teaching speed that everyone can follow. Importantly, you leave with a computer that is set up to do all the things that we have done together.
 
 * You can signal you need help by putting the *pink* sticker on your computer or that everything is alright by putting the green sticker up. That is great because you can ask for help even if you're not comfortable interrupting the class. I usually work with helpers, great way for an advanced user like some people in this room to reinforce your skills!)
+
+* Everyone attending these workshops should feel that that they are in a supportive environment. I usually refer to the [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html#code-of-conduct-detailed-view). If anyone is feeling uncomfortable, feel free to approach me or any Zoology staff to report an incident.
   
 ## Getting started
 
