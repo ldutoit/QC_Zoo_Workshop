@@ -66,7 +66,7 @@ Each read is on four lines:
 * Line 1 start with a '@' character followed by a unique read identifier
 * Line 2 is the sequence
 * Line 3 begins with a '+' character and is sometimes by the sequence identifier (not in our case
-* Line 4 encodes the quality values for the sequence in Line 2, Each base quality is encoded as one letter according to a  [translation table](https://medium.com/@robertopreste/phred-quality-score-2837415f0af). The quality score is called the PHRED score and is on a log-scale. A PHRED score of 10 means that this base has been called with a probability of error of 10%, a score of 20, only 1%.
+* Line 4 encodes the quality values for the sequence in Line 2, Each base quality is encoded as one letter according to a  [translation table](https://medium.com/@robertopreste/phred-quality-score-2837415f0af). The quality score is called the PHRED score and is on a log-scale. A PHRED score of 10 means that this base has been called with a probability of error of 10% while a score of 20 only has a 1% error probability.
 
 | Phred Quality Score |Incorrect base call prob| Accuracy |
 |---------------------|-------------------|--|
@@ -99,22 +99,21 @@ module load FastQC
 Before running the software we''ll create a `qc` folder to store cleanly our quality control files next to our raw_data folder.
 
 ```bash
-cd ../
+pwd
 mkdir qc
 ```
-
-you now hot wo go back up one folder!
-
-mkdir fastqc
-
 
 ```bash
 fastqc raw_data/* -o qc/
 ```
 
-the star is a little *wild card* that means *everything*. In our case we run fastqc on all the files that start inside raw_data/ and store the output `-o` inside the folder qc.
+the star is a little *wild card* that means *everything*. In our case we run fastqc on all the files that are inside `raw_data/` and store the output `-o` inside the folder qc.
 
-Go checkout this file....
+We'll be navigating through the file explorer on the left of your screen to find find the output of FastQC inside `/home/tuto_YOURNAME/qc/`.
+
+![](navigate_tofasqc_output_step1.png)
+
+If you cannot find your file, you can follow the path through [here](navigatefastqcoutput.md).
 
 ### MultiQC
 
