@@ -68,12 +68,12 @@ Each read is on four lines:
 * Line 3 begins with a '+' character and is sometimes by the sequence identifier (not in our case
 * Line 4 encodes the quality values for the sequence in Line 2, Each base quality is encoded as one letter according to a  [translation table](https://medium.com/@robertopreste/phred-quality-score-2837415f0af). The quality score is called the PHRED score and is on a log-scale. A PHRED score of 10 means that this base has been called with a probability of error of 10%, a score of 20, only 1%.
 
-| Phred Quality Score | Error probability |
-|---------------------|-------------------|
-| 10                  | 10%               |
-| 20                  | 1%                |
-| 30                  | 0.1%              |
-| 40                  | 0.01%             |
+| Phred Quality Score |Incorrect base call prob| Accuracy |
+|---------------------|-------------------|--|
+| 10                  | 1 in 10               |90%| 
+| 20                  | 1 in 100           |99%|
+| 30                  | 1 in 1000              |99.9%|
+| 40                  | 1 in 10000             |99.99%|
 
 ### Quality control of individual files using FastQC
 
