@@ -50,24 +50,30 @@ tar xvf raw_data.tar
 ls raw_data/
 ```
 
+There are 8 samples, 4 from lake Wakatipu (WK)and 4 from lake Wanaka (WK).
 
-There are 8 samples, 4 from lake Wakatipu (WK)and 4 from lake Wanaka (WK)/
-
-The [fastq format](https://en.wikipedia.org/wiki/FASTQ_format) is a standard way of storing raw genetic data.
+The [fastq format](https://medium.com/@robertopreste/phred-quality-score-2837415f0af) is a standard way of storing raw genetic data.
 
 Let's have a look at one of those files together using the command ```less```
 
 ```bash
-less raw_data/WK-01.fastq.gz
+less -S raw_data/WK-01.fastq.gz
 ```
+
+
 Each read is on four lines:
 
 * Line 1 start with a '@' character followed by a unique read identifier
 * Line 2 is the sequence
 * Line 3 begins with a '+' character and is sometimes by the sequence identifier (not in our case
-* Line 4 encodes the quality values for the sequence in Line 2, Each base quality is encoded as one letter according to a  [translation table](). The quality score is called the PHRED score and is on a log-scale. A PHRED score of 10 means that this base has a probability of error of 10%, a score of 20: 1%, 30:0.1% and 40: 0.01%/ Another way of thinking about itis that 1 out of 10'000 bases with a score of 40 will bea sequencing error. 
+* Line 4 encodes the quality values for the sequence in Line 2, Each base quality is encoded as one letter according to a  [translation table](https://medium.com/@robertopreste/phred-quality-score-2837415f0af). The quality score is called the PHRED score and is on a log-scale. A PHRED score of 10 means that this base has been called with a probability of error of 10%, a score of 20, only 1%.
 
-press `q` to quit. 
+| Phred Quality Score | Error probability |
+|---------------------|-------------------|
+| 10                  | 10%               |
+| 20                  | 1%                |
+| 30                  | 0.1%              |
+| 40                  | 0.01%             |
 
 ### Quality control of individual files using FastQC
 
