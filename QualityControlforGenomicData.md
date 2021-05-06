@@ -111,7 +111,7 @@ the star is a little *wild card* that means *everything*. In our case we run fas
 
 We'll be navigating through the file explorer on the left of your screen to find find the output of FastQC inside `/home/tuto_YOURNAME/qc/`.
 
-![](navigate_tofasqc_output_step1.png)
+![](img/navigate_tofasqc_output_step1.png)
 
 If you cannot find your file, you can follow the path through [here](navigatefastqcoutput.md).
 
@@ -125,6 +125,8 @@ Find and load MultiQC
 module spider MultiQC
 module load MultiQC
 ```
+
+Go inside your `qc` folder and run `multiqc` with a single parameter `.`, asking multiqc to find log files inside this very folder.
 
 ```bash
 cd qc 
