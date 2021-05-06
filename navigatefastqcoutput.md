@@ -6,13 +6,19 @@
 
 ![](img/navigate_tofasqc_output_step1.png)
 
+
+
 3. Select your tutorial folder, in my case it is named `tuto_Ludo`
 
 ![](img/navigate_tofasqc_output_step2.png)
 
+
+
 4. Select `qc`
 
 ![](img/navigate_tofasqc_output_step3.png)
+
+
 
 5. Right click on one of the .html files and select *Open in new browser tab*_
 
