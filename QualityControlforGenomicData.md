@@ -135,6 +135,10 @@ cd qc
 multiqc .
 ```
 
+Do you want to share this file with someone or save it on your laptop? You can Download using right-click on that file. You want to bring your own local file onto the server? Use the little upper arrow on the file explorer. 
+
+![uploadordownload.png](uploadordownload.png)
+
 Visualise the multiqc_report.html file just produced besudes your `fastqc file`.
 
 [Let's learn how to remove those adapters](remove_adapters.md)
@@ -142,9 +146,4 @@ Visualise the multiqc_report.html file just produced besudes your `fastqc file`.
 [Summary of what we learnt](lesson_summary.md)
 
 [Back to the homepage](index.md)
-
- DD UPLOADING AND DOWNLOADING to the actual lesson
-MAKE SURE THEY LOGIN FOR LONG ENOUGH (not 30mn) NEW SCREENSHOT OF MULTIC DOWNLOAD, 
-CLEAN SCREENSHOT AFTER FASTQC WITHOUT THE ... MESS
-
 
