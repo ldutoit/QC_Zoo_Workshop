@@ -3,7 +3,7 @@
 May 2021 | [Ludovic Dutoit](https://ldutoit.github.io)
 
 ## Description
-Quality control is the first step of any genomic analysis pipleine. We will utilise this step as a way of familiarising ourselves with genomic data structure and learning our way through the New Zealand High Performance Computing Infrastructure ([NeSI](https://www.nesi.org.nz/)).
+Quality control is the first step of any genomic analysis pipeline. We will utilise this step as a way of familiarising ourselves with genomic data structure and learning our way through the New Zealand High Performance Computing Infrastructure ([NeSI](https://www.nesi.org.nz/)).
 
 ## Objectives
 
@@ -14,7 +14,6 @@ We only have a short amount of time together, but whether you are a novice or an
 The teaching style of this workshop is inspired by the carpentries mode. Here are a few important points to me:
 
 * I believe **live coding** is a great way to learn bioinformatics skills. You get to hear it, see it and do it. It also encourages a teaching speed that everyone can follow. 
-*
 * *Share and thrive*. You'll leave today with a computer that is set up to do all the things that we have done together. All the material is accessible on this website. You can modify it, [suggest modifications](https://github.com/ldutoit/QC_Zoo_Workshop/issues) or share it.
 
 * You can signal you need help by putting the *pink* sticker on your computer or that everything is alright by putting the green sticker up. That is great because you can ask for help even if you're not comfortable interrupting the class. I usually work with helpers, great way for an advanced user like some people in this room to reinforce your skills!)
