@@ -145,7 +145,7 @@ Well done! You have completed the quality control of this data!
 
 [Let's learn how to remove those adapters](remove_adapters.md)
 
-[Summary of what we learnt](lesson_summary.md)
+[Lesson summary](lesson_summary.md)
 
 [Back to the homepage](index.md)
 
