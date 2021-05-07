@@ -25,14 +25,14 @@ Let's remember ourselves where we are:
 pwd
 ```
 
-If you are in `qc/` let's let's get back to the above directory to see both the raw data and the qc folder. You can go up one folder by using ```..``` meaning the above directory in the path.
+If you are in `qc/` let's get back to the above directory to see both the raw data and the qc folder. You can go up one folder by using ```..``` meaning the above directory in the path.
 
 ```
 cd ..
 pwd
 ```
 
-Let's make a directory for our data clean data without adapters. Removing adapters is kown as `trimming adapters`
+Let's make a directory for our data clean data without adapters. Removing adapters is known as `trimming adapters`
 
 ```
 mkdir trimmed
@@ -53,7 +53,7 @@ cutadapt --help
 
 The [online help](https://cutadapt.readthedocs.io/) is also excellent. 
 
-Let's trim one file first to see if we are able to remove the adapter before doing this on all the files at once.  We'llremove the adapter as well as low quality read (i.e. quality below 20) and reads that are shorter than 50bp after adapter trimming
+Let's trim one file first to see if we are able to remove the adapter before doing this on all the files at once.  We'll remove the adapter as well as low quality read (i.e. quality below 20) and reads that are shorter than 50bp after adapter trimming
 
 ```
 cutadapt -a CTGCAAGATCGGAAGAGC -q 20 -m 50  raw_data/WK-01.fastq.gz  -o trimmed/WK-01.fastq
