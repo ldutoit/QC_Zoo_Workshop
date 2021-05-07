@@ -72,7 +72,7 @@ fastqc trimmed/WK-01.fastq -o trimmed/qc
 
 Navigate to your `trimmed` folder using the file explorer and have a look at the adapter content of this new FastQC html file. If you are not sure on how to get there, you can click on any folder in the path of that exploring bar at the top left (see elow) to get back to your desired folder. You can also click on the small directory icon to get back all the way to the root and navigate your way back into trimmed.
 
-![](img/explorer_path.png)
+![](img/Explorer_path.png)
 
 
 
