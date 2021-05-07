@@ -1,17 +1,9 @@
 # Resources
 
-Ths tutorial will teach you .... popstructure tuto
+* [Population structure](https://github.com/ldutoit/bully_gbs/blob/master/populationstructure_tuto/populationstructure_tuto.md) tutorial using this very dataset.
 
-calling variants tuto
+* [The website of the spring school](https://otagocarpentries.github.io/bioinformatics-spring-school-2020/)
 
-GBS fro m the spring school
+* [Apply for NeSI account](https://www.nesi.org.nz/)
 
-the site of the spring school
-
-Apply for NeSI account
-
-
-feel free to shout me an email with any question at
-
-
-some more examples of my teaching
+* More examples from my [teaching portfolio](https://ldutoit.github.io/teaching/)
