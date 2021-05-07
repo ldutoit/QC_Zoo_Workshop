@@ -6,4 +6,7 @@
 
 * [Apply for NeSI account](https://www.nesi.org.nz/)
 
+* Upcoming events from the [Carpentries @Otago ](https://otagocarpentries.github.io/)
+
+
 * More examples from my [teaching portfolio](https://ldutoit.github.io/teaching/)
