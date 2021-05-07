@@ -143,5 +143,8 @@ Visualise the multiqc_report.html file just produced besudes your `fastqc file`.
 
 [Back to the homepage](index.md)
 
+ DD UPLOADING AND DOWNLOADING to the actual lesson
+MAKE SURE THEY LOGIN FOR LONG ENOUGH (not 30mn) NEW SCREENSHOT OF MULTIC DOWNLOAD, 
+CLEAN SCREENSHOT AFTER FASTQC WITHOUT THE ... MESS
 
 
