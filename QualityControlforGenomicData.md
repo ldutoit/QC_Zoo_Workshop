@@ -146,6 +146,8 @@ Well done! You have completed the quality control of this data!
 [Let's learn how to remove those adapters](remove_adapters.md)
 
 [Lesson summary](lesson_summary.md)
+
 [Link to Useful Resources](resources.md)
+
 [Back to the homepage](index.md)
 
