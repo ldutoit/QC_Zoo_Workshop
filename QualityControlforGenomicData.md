@@ -137,9 +137,11 @@ multiqc .
 
 Do you want to share this file with someone or save it on your laptop? You can Download using right-click on that file. You want to bring your own local file onto the server? Use the little upper arrow on the file explorer. 
 
+Visualise the multiqc_report.html file just produced besides your `fastqc file`.
+
 ![uploadordownload.png](uploadordownload.png)
 
-Visualise the multiqc_report.html file just produced besudes your `fastqc file`.
+Well done! You have completed the quality control of this data!
 
 [Let's learn how to remove those adapters](remove_adapters.md)
 
