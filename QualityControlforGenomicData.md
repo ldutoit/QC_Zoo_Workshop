@@ -139,7 +139,7 @@ Do you want to share this file with someone or save it on your laptop? You can D
 
 Visualise the multiqc_report.html file just produced besides your `fastqc file`.
 
-![uploadordownload.png](uploadordownload.png)
+![](uploadordownload.png)
 
 Well done! You have completed the quality control of this data!
 
