@@ -86,7 +86,7 @@ The general structure of a loop is as below:
 for thing in list_of_things
   do
   something to $thing
-  done
+done
 ```
 That list of things could contain thousands of objects but in our case it is just 8 files.
 
