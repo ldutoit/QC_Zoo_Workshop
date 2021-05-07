@@ -13,9 +13,9 @@ We'll proceed in 4 steps:
 ## 1. Identify our adapter sequence
 
 The first step in removing the adapter is knowing uts sequence. In general, you or other members of your group will probably know what your adapter is or be able to identify what the sequence is with the sequencing provider.
-When that is not the cas, FastQC is pretty helpful. our FastQC reports stated that the contamination came from ...
 
-You can go to the FastQC documentation and find the exact serquence: .....
+Our adapter sequence is: AGATCGGAAGAGC
+
 
 ## 2. Remove it from one file
 
