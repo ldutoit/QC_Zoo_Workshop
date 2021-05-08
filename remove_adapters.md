@@ -16,7 +16,7 @@ The first step in removing the adapter is knowing uts sequence. In general, you 
 Our adapter sequence is: AGATCGGAAGAGC
 
 
-## 2. Remove it from one file
+## 2. Remove the adapter sequence from one file
 
 
 Let's remember ourselves where we are:
@@ -30,6 +30,7 @@ If you are in `qc/` let's get back to the above directory to see both the raw da
 ```
 cd ..
 pwd
+ls
 ```
 
 Let's make a directory for our data clean data without adapters. Removing adapters is known as `trimming adapters`
@@ -70,11 +71,9 @@ mkdir trimmed/qc
 fastqc trimmed/WK-01.fastq -o trimmed/qc
 ```
 
-Navigate to your `trimmed` folder using the file explorer and have a look at the adapter content of this new FastQC html file. If you are not sure on how to get there, you can click on any folder in the path of that exploring bar at the top left (see below) to get back to your desired folder. You can also click on the small directory icon to get back all the way to the root and navigate your way back into trimmed.
+Navigate to your `trimmed` folder using the file explorer and have a look at the adapter content of this new FastQC `.html` file. If you are not sure on how to get there because you are already in `qc`, you can click on any folder in the path of that exploring bar at the top left (see below) to get back to your desired folder in the path. You can also click on the small directory icon to get back all the way to the root and navigate your way back into trimmed.
 
 ![](img/Explorer_path.png)
-
-
 
 ## 4. Remove the adapters from all of the files at once.
 
@@ -88,11 +87,10 @@ for thing in list_of_things
   something to $thing
 done
 ```
-That list of things could contain thousands of objects but in our case it is just 8 files.
-
+That list of things could contain thousands of objects or a large number of actions but in our case it is just our 8 files.
 
 Let's start with an abstract example. In the example below, for each fruit in a list of fruits, we'll apply the command echo which will print the content of the variable it is applied to.
- 
+
 ``` 
 for  fruit in banana lemon orange
   do 
@@ -100,10 +98,9 @@ for  fruit in banana lemon orange
 done
 ```
 
-The loop repeat the code between do and done assigning the variable `$fruit` to each element one by one. The first time it runs `$fruit` is `banana`, the second time it is `lemon`, the third time it is `orange`.
+The loop repeat the code between do and done assigning the variable `$fruit` to each element one by one. The first time it runs, `$fruit` is `banana`, the second time it is `lemon`, the third time it is `orange`.
 
-the name of the variable is up to you. You could `animal` or `jdsnkfn` car if you wanted to. 
-
+the name of the variable is up to you. You could use `animal` or `jdsnkfn` car if you want to.
 
 ``` 
 for  animal in banana lemon orange
@@ -112,7 +109,7 @@ for  animal in banana lemon orange
 done
 ```
 
-The computer does not care but make sure it make sense to you.
+The computer does not care but make sure it makes sense to you.
 
 Let's get back to our adapters, we want to apply the cutadapt command to remove adapters to each of the 8 files at once:
 
@@ -127,8 +124,7 @@ done
 
 Using the \*, we are applying the loop to all the files in the folder.
 
-let's check if we have some output using ls to visualise the content of the 'trimmed' folder
-
+let's check if we have some output using `ls` to visualise the content of the `trimmed' folder
 
 ```
 ls ../trimmed/
@@ -136,7 +132,7 @@ ls ../trimmed/
 
 Well done!
 
-Final Challenge: Use what we learnt in the first part of this lesson to quality control all of these new files.
+*Final Challenge* Combine what we learnt in the first part of this lesson to quality control all of these new files. You could also try to run `multiqc` in the `trimmed` folder to see how multiqc deal with them.
 
 [Link to Useful Resources](resources.md)
 
