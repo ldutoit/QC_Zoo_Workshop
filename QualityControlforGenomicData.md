@@ -1,6 +1,6 @@
 ## Quality Control for Genomic Data
 
-Ludovic Dutoit | May 2021
+[Ludovic Dutoit](https://ldutoit.github.io/) | May 2021
 
 ## Dataset
 
@@ -15,7 +15,7 @@ While today's workshop is not going further than Quality Control of the data, Yo
 
 ## Raw genetic data format
 
-We'll first navigate to our home directory by typing:
+We'll first navigate to our home directory by typing `cd` which stands for changing directory before checking the path to the working directory using `pwd`.
 
 ```bash
 cd 
@@ -39,10 +39,10 @@ cd tuto_Jo
 We'll then download our dataset for today and unzip it. There are other ways to get your data onto NeSI from your own computer, but a quick download will be the most efficient for us today. We'll use the wget command to download a file and name that downloaded file `raw_data.tar` using the `-O` parameter
 
 ```bash
-wget --no-check-certificate 'https://tinyurl.com/rawingram' -O raw_data.tar
+wget  'https://tinyurl.com/rawingram' -O raw_data.tar
 ```
 
-you can use `ls` that stands for *list* to see the content of directories. We will then decompress this newly downloaded `tar` archive folder. 
+you can use `ls` that stands for *list* to see the content of directories. We will then decompress this newly downloaded `tar` archive folder using `tar xvf`.
 
 ```bash
 ls
@@ -50,16 +50,15 @@ tar xvf raw_data.tar
 ls raw_data/
 ```
 
-There are 8 samples, 4 from lake Wakatipu (WK)and 4 from lake Wanaka (WK).
+There are 8 samples, 4 from lake Wakatipu (WK) and 4 from lake Wanaka (WK).
 
 The [fastq format](https://medium.com/@robertopreste/phred-quality-score-2837415f0af) is a standard way of storing raw genetic data.
 
-Let's have a look at one of those files together using the command ```less```
+Let's have a look at one of those files together using the command ```less``` with the parameter -S that makes sure that long lines are displayed as single lines.
 
 ```bash
-less -S raw_data/WK-01.fastq.gz
+less -S  raw_data/WK-01.fastq.gz
 ```
-
 
 Each read is on four lines:
 
@@ -83,7 +82,7 @@ It is not very practical to look at all those reads manually, but it is always a
 
 NeSI comes with a whole suite of pre-installed softwares, and [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) is one of them. All those softwares are stored away in boxes called *modules* that you can access whenever you need to.
 
-Loading software on the server is a case-sensitive process. We need to find the exact name under which the module is stored inside the system.
+Loading software on the server is a case-sensitive process. Therefore, we need to find the exact name under which the module is stored inside the system.
 
 To find a module including the word *fastqc* in its name or description:
 
@@ -96,7 +95,7 @@ Now that we found it, we can load it:
 ```bash
 module load FastQC
 ```
-Before running the software we''ll create a `qc` folder to store cleanly our quality control files next to our raw_data folder.
+Before running the software we''ll create a `qc` folder to store cleanly our quality control files next to our `raw_data` folder.
 
 ```bash
 pwd
@@ -106,10 +105,9 @@ mkdir qc
 ```bash
 fastqc raw_data/* -o qc/
 ```
+the star is a little *wild card* that means *everything*. In our case we run fastqc on all the files that are inside `raw_data/` and store the output `-o` inside the folder `qc`.
 
-the star is a little *wild card* that means *everything*. In our case we run fastqc on all the files that are inside `raw_data/` and store the output `-o` inside the folder qc.
-
-We'll be navigating through the file explorer on the left of your screen to find find the output of FastQC inside `/home/tuto_YOURNAME/qc/`.
+We'll be navigating through the file explorer on the left of your screen to find the output of FastQC inside `/home/tuto_YOURNAME/qc/`. Right0click on one of those html file and select *Open in New Browser Tab* to access a comfortable view.
 
 ![](img/navigate_tofasqc_output_step1.png)
 
@@ -121,7 +119,7 @@ Now that you had a good look at one or two file, you can see that FastQC is a fa
 
 [MultiQC](https://multiqc.info/) aggregates results from bioinformatics analyses across many samples into a single report. Today, we'll just aggregate our results from the fastqc analysis, but MultiQC recognises log files of many different softwares and is an excellent way of keeping track of your samples along an analysis pipeline whether.
 
-Find and load MultiQC
+Let's find [MultiQC](https://multiqc.info/) in the list of pre-installed software. 
 
 ```bash
 module spider MultiQC
@@ -134,10 +132,9 @@ Go inside your `qc` folder and run `multiqc` with a single parameter `.`, asking
 cd qc 
 multiqc .
 ```
+Visualise the `multiqc_report.html` file just produced besides your `fastqc file` by opening it in a new browser tab.
 
-Do you want to share this file with someone or save it on your laptop? You can Download using right-click on that file. You want to bring your own local file onto the server? Use the little upper arrow on the file explorer. 
-
-Visualise the multiqc_report.html file just produced besides your `fastqc file`.
+What if you want to share this file with someone or save it on your laptop? You can Download using right-click on that file. You want to bring your own local file onto the server? Use the little upper arrow on the file explorer. 
 
 ![](img/uploadordownload.png)
 
