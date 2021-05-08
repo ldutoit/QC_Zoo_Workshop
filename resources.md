@@ -4,7 +4,7 @@
 
 * [The website of the bioinformatics spring school](https://otagocarpentries.github.io/bioinformatics-spring-school-2020/)
 
-* [Apply for NeSI account](https://www.nesi.org.nz/)
+* [Apply for a NeSI account](https://www.nesi.org.nz/)
 
 * Upcoming events from the [Carpentries @Otago ](https://otagocarpentries.github.io/)
 
